@@ -1,0 +1,10 @@
+
+.out-of-stock {
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+.in-stock {
+  color: #2ecc71;
+  font-weight: 600;
+}

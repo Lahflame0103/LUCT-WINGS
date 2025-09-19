@@ -1,0 +1,30 @@
+
+.dashboard {
+  padding: 1rem;
+}
+
+.dashboard h2 {
+  color: #002468;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-card {
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(243, 241, 245);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card h3 {
+  color: #344ddb;
+  margin-bottom: 0.5rem;
+}
+
